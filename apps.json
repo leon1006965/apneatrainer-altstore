@@ -1,0 +1,38 @@
+{
+  "name": "ApneaTrainer",
+  "identifier": "com.apneatrainer.source",
+  "description": "Free apnea breath training for iOS. O2 tables, CO2 tables, custom tables and more.",
+  "iconURL": "https://raw.githubusercontent.com/leon1006965/apneatrainer-altstore/main/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/leon1006965/apneatrainer-altstore/main/icon.png",
+  "website": "https://leonevner.eu",
+  "tintColor": "#06b6d4",
+  "apps": [
+    {
+      "name": "ApneaTrainer",
+      "bundleIdentifier": "com.apneatrainer.app",
+      "developerName": "galaxys21tech",
+      "subtitle": "Free apnea breath training for iOS",
+      "localizedDescription": "ApneaTrainer is a free, open-source apnea breath training app for iOS.\n\nFeatures:\n\n• O2, CO2, Mix & First Contraction training tables\n• Custom table builder with configurable hold/recovery times\n• Clean countdown timer with audio cues\n• Multi-language support (English, Polish, Swedish, Russian)\n• iOS 15.0+",
+      "iconURL": "https://raw.githubusercontent.com/leon1006965/apneatrainer-altstore/main/icon.png",
+      "tintColor": "#06b6d4",
+      "category": "health",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "date": "2026-09-20",
+          "localizedDescription": "Initial release",
+          "downloadURL": "https://raw.githubusercontent.com/leon1006965/apneatrainer-altstore/main/ApneaTrainer.ipa",
+          "size": 187323,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMicrophoneUsageDescription": "Apnea Trainer uses the microphone for breath detection."
+        }
+      }
+    }
+  ]
+}
